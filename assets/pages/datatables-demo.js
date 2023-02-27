@@ -9,14 +9,8 @@ $(document).ready(function() {
 
     // Default Datatable
     $('#basic-datatable').DataTable({
-        "language": {
-            "paginate": {
-                "previous": "<i class='mdi mdi-chevron-left'>",
-                "next": "<i class='mdi mdi-chevron-right'>"
-            }
-        },
-        "drawCallback": function () {
-            $('.dataTables_paginate > .pagination').addClass('pagination-rounded');
+        language: {
+            url: 'assets/pages/pt-br.json'
         }
     });
 
