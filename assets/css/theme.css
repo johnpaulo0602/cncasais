@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Template Name: Opatix - Admin & Dashboard Template
 Author: Myra Studio
@@ -364,6 +365,29 @@ body.enable-vertical-menu .menu-overlay {
   height: 100%;
   justify-content: center;
   width: 100%;
+}
+
+.img-perfil {
+  width: 250px;
+  height: 250px;
+}
+
+/* tamanho para dispositivos móveis */
+@media (max-width: 767px) {
+  .img-perfil {
+    width: 150px;
+    height: 150px;
+  }
+}
+.img-perfil-container {
+  top: -100px;
+}
+
+.img-capa {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
 }
 
 /* 5. Helper */
